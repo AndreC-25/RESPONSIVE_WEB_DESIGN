@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Product Survey Form</h1>
+        <p id="description">Please take a brief moment to fill out this survey, thank you</p>
+      </header>
+      <form id="survey-form">
+        <fieldset>  
+          <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" required>
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" placeholder="Enter your email" required>
+          <label id="number-label" for="number">Age (optional)</label>
+          <input id="number" type="number" min="13" max="120" placeholder="Age">
+          <label>How did you hear about us?</label>
+          <select id="dropdown">
+            <option value="0">(select an option)</option>
+            <option value="1">social networks</option>
+            <option value="2">newspaper</option>
+            <option value="3">magazine</option>
+            <option value="4">magazine</option>
+            <option value="5">friends</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label class="sub-title-1">Would you recommend our service?</label>
+          <label><input class="inline" type="radio" name="selector-form" value="1"> Yes I would recommend it</label>
+          <label><input class="inline" type="radio" name="selector-form" value="2"> I would not recommend it</label>
+          <label class="sub-title-2">What did you like the most?</label>
+          <label><input class="inline" type="checkbox" value="a">Design</label>
+          <label><input class="inline" type="checkbox" value="b">Versatility</label>
+          <label><input class="inline" type="checkbox" value="c">Fluency</label>
+          <label><input class="inline" type="checkbox" value="d">Interactivity</label>
+        </fieldset>
+        <fieldset>
+          <label class="sub-title-3">Add a comment for further improvement (optional)</label>
+          <textarea cols="30" rows="7" placeholder="We would like to know your opinion"></textarea>
+        </fieldset>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

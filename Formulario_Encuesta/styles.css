@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)), url(https://www.becas-santander.com/content/dam/becasmicrosites/blog/gestion-empresarial.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Tahoma;
+  font-size: 16px;
+  color: white;
+}
+
+.container {
+  max-width: 630px;
+  width: 100%;
+  height: 100vh;
+  margin: 50px auto 50px auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  padding: 0 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h1, p {
+  margin-bottom: 8px;
+}
+
+#title {
+  margin-bottom: 8px;
+}
+
+p {
+  font-style: italic;
+}
+
+#survey-form {
+  padding: 40px;
+  border-radius: 4px;
+  background-color: rgba(5, 7, 12, 0.75);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea, select {
+  width: 100%;
+  min-height: 2.5em;
+  color: grey;
+  border: none;
+  border-radius: 4px;
+  padding-left: 8px;
+  margin: 0;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 18px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.sub-title-2 {
+  margin-top: 20px;
+}
+
+.sub-title-1, .sub-title-2, .sub-title-3 {
+  margin-bottom: 13px;
+}
+
+textarea {
+  padding: 10px;
+}
+
+#submit {
+  width: 100%;
+  height: 50px;
+  background-color: #60ad60;
+  color: white;
+  border: none;
+}
